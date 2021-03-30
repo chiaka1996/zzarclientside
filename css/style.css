@@ -1,0 +1,1477 @@
+@import url('https://fonts.googleapis.com/css2?family=Fredoka+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Slab:wght@300;400&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@500&display=swap');
+
+/* mobile css design */
+body{
+     width: 100%;
+     height: 100%;
+     overflow-x: hidden;
+     /* overflow-y: hidden;  */
+}
+
+#backgroundPic1 {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 2%;
+    background: linear-gradient(to right,  #3B0563, #6E2BA0, #833DB7);
+}
+
+.bodyContainer{
+    overflow-x: hidden;
+    /* overflow-y:  hidden; */
+}
+
+.webNav {
+    display: none;
+}
+
+.mobileNav {
+    display: block;
+    position: relative;
+    background: linear-gradient(to right,  #3B0563, #6E2BA0, #833DB7);
+}
+
+.mobileNav #banner {
+    margin-left: 5%;
+    font-size: 30px;
+    color: #FF5600;
+    font-family: 'Fredoka One';
+}
+
+.sideBarNav {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    position: fixed;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: 2s;
+}
+
+.sideBarNav2 {
+    background-color: white;
+    width: 100%;
+    height: 100vh;
+    z-index: 2;
+    position: fixed;
+    transform: translateX(0);
+    opacity: 1;
+    transition: 2s;
+}
+
+a {
+    text-decoration: none;
+}
+
+.sideBarNav2 ul {
+    margin-top: 20%;
+}
+
+.sideBarNav2 ul li {
+    color: #FF5600;
+    font-family: "Fredoka One";
+    font-size: 20px;
+    text-align: center;
+    margin-top: 15%;
+}
+
+.menu {
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    font-size: 25px;
+    height: 210px; 
+    color: white;
+}
+
+.close {
+    display: none;
+    opacity: 0;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    font-size: 30px;
+    height: 210px; 
+    color: red; 
+}
+
+.close2 {
+    display: block;
+    opacity: 1;
+    position: absolute;
+    top: 15%;
+    right: 5%;
+    font-size: 30px;
+    height: 210px; 
+    color: red; 
+    transition: 3s;  
+}
+
+.introGrid {
+    width: 100%;
+    margin: 5% 0 0 0;
+    display: grid;
+    grid-template-rows: 60% 40%;
+}
+
+.introGridItem {
+    padding: 9% 5% 0 5%;
+    font-size: 17px;
+    color: white;
+    font-family: "Roboto Slab";
+}
+
+#bigHeader{
+    font-size: 45px;
+    font-family: 'Fredoka One';
+}
+
+.introGridItemImage {
+    margin-top: 5%;
+    margin-bottom: 6%;
+    width: 100%;
+    padding: 0 5% 0 5%;
+}
+
+.aboutIntroGrid {
+    margin: 5% 5% 0 5%;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.aboutIntroGridItem {
+    padding: 5% 0 0 0;
+    font-size: 17px;
+    color: white;
+    font-family: "Roboto Slab";  
+    /* background-color: red; */
+    margin-left: 0; 
+}
+
+.aboutIntroGridItemImage {
+    margin-top: 0;
+    margin-bottom: 0;
+    margin-right: 0;
+    width: 100%;
+}
+
+.aboutIntroGridItemImage img{
+    border-radius: 20px;
+    width: 100%;
+    height: 300px; 
+}
+
+.aboutIntroGridItem button {
+    width: 25%;
+    height: 40px;
+    font-size: 18px;
+    background-color: #FF5600;
+    color: white;
+    border-radius: 10px;
+    font-family: "Roboto Slab";
+    border: #FF5600 ;    
+}
+
+.aboutIntroGridItem button:active {
+    background-color: white;
+    color: #FF5600;
+}
+
+
+
+.introGridItemImage img{
+    border-radius: 210px;
+    width: 100%;
+    height: 300px;
+}
+
+
+.introGridItem button {
+    width: 25%;
+    height: 40px;
+    font-size: 18px;
+    background-color: #FF5600;
+    color: white;
+    border-radius: 10px;
+    font-family: "Roboto Slab";
+    border: #FF5600 ;
+}
+
+.introGridItem button:hover {
+    background-color: white;
+    color: #FF5600;
+}
+
+.aboutUs {
+    display: grid;
+    grid-template-rows: auto auto;
+    padding: 5% 5% 3% 5%;;
+    background-color: #EBDCF8;
+    height: 100%;
+}
+
+.aboutGrid {
+    border-radius: 10px;
+}
+
+.aboutImage {
+    width: 100%;
+    height: 350px;
+    border-radius: 10px;
+    transform: translateX(-100%);
+    opacity: 0;
+    transition: 2s;
+}
+
+.aboutImages {
+    width: 100%;
+    height: 350px;
+    border-radius: 2px;
+    opacity: 1;
+    transform: translateX(0);
+    transition:  2s;
+}
+
+.aboutGrid2{
+    padding: 2% 5% 0 5%;
+    opacity: 0;
+    transform: translateX(100%);
+    transition: 2s;
+}
+
+.aboutGridTransform {
+    padding: 2% 5% 0 5%;
+    opacity: 1;
+    transform: translateX(0%);
+    transition: 2s;
+}
+
+.aboutHeader {
+    font-family: 'Fredoka One';
+    font-size: 34px;
+}
+
+.aboutParagraph {
+    font-size: 15px;
+    font-family: "Roboto Slab";
+}
+
+.learnMore {
+    width: 35%;
+    height: 40px;
+    font-size: 16px;
+    background-color: #FF5600;
+    color: white;
+    border-radius: 10px;
+    font-family: "Roboto Slab";
+    border: #FF5600 ;
+}
+
+.learnMore:hover {
+    color: #FF5600;
+    background-color: white;
+}
+
+.ourTeam {
+    padding-top: 3%; 
+    padding-bottom: 8%;
+     
+}
+
+.teamSection {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    background: #3B0563;
+    min-height: 100vh;
+    font-family: "Poppins";
+    font-size: 12px;
+}
+
+.clipSection {
+    position: relative;
+    width: 100%;
+    height: 100%; 
+}
+
+.clipSection::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#f00, #f0f);
+    clip-path: circle(30% at right 80%);
+}
+
+.clipSection::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(#2196f3, #e91e63);
+    clip-path: circle(20% at 10% 10%);
+}
+
+.teamContainer {
+    position: relative;
+    z-index: 1;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
+    margin: 40px 0; 
+}
+
+.card{
+    position: relative;
+    width: 300px;
+    height: 400px;
+    background: rgba(255, 255,255, 0.05);
+    margin: 20px;
+    box-shadow: 0 15px 35px rgba(0,0,0,0.2);
+    border-radius: 15px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    backdrop-filter: blur(10px);
+}
+
+.card .teamContent {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    opacity: 0.8;
+    transition: 0.5s;
+}
+
+.card:hover .teamContent {
+    opacity: 1;
+    transform: translateY(-20px);
+}
+
+.imgBx {
+    position: relative;
+    width: 115px;
+    height: 115px;
+    border-radius: 70px;
+    overflow: hidden;
+    border: 1px solid rgba(0,0,0,0.25);
+}
+
+.imgBx img {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.contentBx h3 {
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-weight: 500;
+    font-size: 18px;
+    text-align: center;
+    margin: 20px 0 10px;
+    line-height: 1.1em;
+    font-family: "Poppins";
+}
+
+.contentBx h3 span {
+    font-size: 12px;
+    font-weight: 300;
+    text-transform: initial;
+    font-family: "Poppins";
+}
+
+.card .sci {
+    margin-top: 40px;
+    display: flex;
+}
+
+.card .sci li {
+    list-style: none;
+    margin: 0 10px;
+    transform: translateY(2px);
+    opacity: 0;
+    transition: 0.5s;
+    transition-delay: calc(0.1s * var(--i)); 
+}
+
+.card:hover .sci li {
+    transform: translateY(0px);
+    opacity: 1;
+}
+
+.card .sci li a {
+    color: #fff;
+    font-size: 18px;
+}
+
+.ourworkProcessHeader{
+    padding-top: 3%;
+    font-family: "Fredoka One";
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    background-color: #EBDCF8;
+}
+
+.workProcess{
+    position: relative;
+    background-color: #EBDCF8;
+    color: Black;
+    height: 100%;;
+    padding: 0 5% 0 5%;
+}
+
+.meetingListening{
+    padding-top: 5%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.meetingImage {
+    transform: translateY(-50px);
+    opacity: 0;
+}
+
+.meetingImage2 {
+    transform: translateY(0);
+    opacity: 1;
+    transition: 2s;
+}
+
+.meetingListening img {
+    width: 100%;
+    height: 260px;
+    border-radius: 5px;
+}
+
+.meetingListeningNotes {
+    padding-top: 5%;
+    transform: translateY(50px);
+    transition: transform 1s;
+
+}
+
+.meetingListeningNotes2 {
+    padding-top: 5%;
+    transform: translateY(0);
+     transition: transform 2s;
+}
+
+.meetingListeningNotes2 h4 {
+    font-family: "Fredoka One";
+}
+
+.meetingListeningNotes2 p {
+    font-family: "Roboto Slab";
+}
+
+.planning {
+    margin-top: 1%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.planning img {
+    width: 100%;
+    height: 260px;
+    border-radius: 5px;
+}
+
+.planningNotes {
+    padding-top: 5%;
+    padding-right: 2%;
+    opacity: 0;
+    transform: translateX(-50px);
+    transition: 1s;
+}
+
+.planningNotes2 {
+    padding-top: 5%;
+    padding-right: 2%;
+    opacity: 1;
+    transform: translateX(0);
+    transition: 2s;
+}
+
+.planningImage {
+    width: 100%;
+    transform: translateY(-50px);
+    opacity: 0;
+    transition: 1s;
+}
+
+.planningImage2 {
+    width: 100%;
+    transform: translateY(0);
+    opacity: 1;
+    transition: 2s;
+}
+
+.planningNotes2 h4 {
+    font-family: "Fredoka One";
+}
+
+.planningNotes2 p {
+    font-family: "Roboto Slab";
+}
+
+.validation{
+    /* position: absolute;
+    top: 42%;
+    left: 10%; */
+    margin-top: 7%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.validation img {
+    width: 100%;
+    height: 260px;
+    border-radius: 5px;
+}
+
+.validationNotes {
+    padding-top: 5%;
+    padding-left: 4%;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 1s;
+}
+
+.validationNotes2 {
+    padding-top: 5%;
+    padding-left: 0;
+    transform: translateY(0);
+    opacity: 1;
+    transition: 2s;
+}
+
+.validationImage {
+    opacity: 0;
+    transform: translateX(80px);
+    transition: 1s;
+}
+
+.validationImage2 {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 2s;
+}
+
+.validationNotes2 h4 {
+    font-family: "Fredoka One";
+}
+
+.validationNotes2 p {
+    font-family: "Roboto Slab";
+}
+
+.execution {
+    /* position: absolute;
+    top: 61%;
+    right: 10%; */
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto;    
+}
+
+.execution img {
+    width: 100%;
+    height: 260px;
+    border-radius: 5px;
+}
+
+.executionNotes {
+    padding-top: 5%;
+    padding-right: 0%;
+    transform: translateX(-50px);
+    opacity: 0;
+    transition: 1s;
+}
+
+.executionNotes2 {
+    padding-top: 5%;
+    padding-left: 0;
+    opacity: 1;
+    transform: translateY(0);
+    transition: 2s;
+}
+
+.executionImage {
+    transform: translateX(50px);
+    opacity: 0;
+    transition: 1s;
+}
+
+.executionImage2 {
+    transform: translateX(0);
+    opacity: 1;
+    transition: 2s;
+}
+
+.executionNotes2 h4 {
+    font-family: "Fredoka One";
+}
+
+.executionNotes2 p {
+    font-family: "Roboto Slab";
+}
+
+.feedback{
+    /* position: absolute;
+    top: 80%;
+    left: 10%; */
+    margin-top: 5%;
+    width: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+}
+
+.feedback img {
+    width: 100%;
+    height: 260px;
+    border-radius: 5px;
+}
+
+.feedbackNotes {
+    padding-top: 5%;
+    padding-left: 4%;
+    transform: translateY(-50px);
+    opacity: 0;
+    transition:  1s;
+}
+
+.feedbackNotes2 {
+    padding-top: 5%;
+    padding-left: 2%;
+    transform: translateY(0);
+    opacity: 1;
+    transition:  2s;
+}
+
+.feedbackImage {
+    transform: translateX(50px);
+    opacity: 0;
+    transition: 1s;
+}
+
+.feedbackImage2 {
+    opacity: 1;
+    transform: translateX(0);
+    transition: 2s;
+}
+
+.feedbackNotes2 h4 {
+    font-family: "Fredoka One";
+}
+
+.feedbackNotes2 p {
+    font-family: "Roboto Slab";
+}
+
+.ourServiceBody {
+    padding: 4% 0 4% 0;
+    color: white;
+    background-color:  #3B0563;
+    height: 100%;
+}
+
+.serviceContainer {
+    position: relative;
+    width: 100%;
+    height: 100%;
+}
+
+.serviceContainer::after {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(yellow, #e91e63);
+    clip-path: circle(5% at 5% 15%);
+}
+
+.serviceContainer::before {
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(yellow, #e91e63);
+    clip-path: circle(5% at 95% 85%);
+}
+
+.ourserviceHead {
+    font-size: 30px;
+    font-family: "fredoka One";
+    text-align: center;
+}
+
+.ourServiceGrid {
+    display: block;
+    /* grid-template-columns: 33% 33% 33%; */
+    padding: 0% 5% 0 5%;
+}
+
+.serviceGridItem ul {
+    list-style: none;
+}
+.serviceGridItem ul li::before {
+    content: "\2022";
+  color: red;
+  font-weight: bold;
+  display: inline-block; 
+  width: 1em;
+  margin-left: -1em;
+}
+.serviceGridItem ul li {
+    text-decoration-color: #FF5600;
+    font-family: "Fredoka One";
+    margin-top: 8%;
+    font-size: 19px; 
+    color: white;
+    z-index: 1;
+}
+
+.testimonial {
+    padding: 3% 5% 0 5%;
+    background-color: #EBDCF8;
+}
+
+.testimonialHeader{
+    font-size: 28px;
+    font-family: "fredoka One";
+    text-align: center;
+    color: black;
+}
+
+.testimonialGridItem {
+    color: black;
+    text-align: center;
+    padding: 4% 0 6% 0;
+    font-family: "Roboto Slab";
+}
+
+.testimonialGridItem img {
+    border-radius: 100%;
+    margin-bottom: 1%;
+}
+.testimonialNote {
+    padding-top: 2%;
+}
+
+#star {
+    color: #FF5600;
+}
+
+.name {
+    color: #FF5600;
+    font-family: "fredoka One";
+}
+
+footer{ 
+    background-color: black;
+}
+
+.footerGrid {
+    display: grid;
+    grid-template-rows: auto auto auto auto;
+}
+
+.footerGridItem1 {
+    padding: 5% 2% 0 10%;
+}
+
+.footerGridItem {
+    padding: 5% 2% 0 3%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: white;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #FF5600;
+}
+
+li button {
+    background-color: #FF5600;
+    color: white;
+    width: 40%;
+    border: 1px solid #FF5600;
+    border-radius: 5px;
+}
+
+li button:hover {
+    background-color: white;
+    color:  #FF5600;
+}
+
+.header {
+    color: #FF5600;
+    font-family: "Fredoka One";
+    font-size: 17px;
+    /* background-color: green; */
+}
+
+#zzarHeader{
+    color:  #FF5600;
+    font-family: "Fredoka One";
+    /* background-color: green; */
+    font-size: 27px;
+}
+
+#rights{
+    padding-top: 5%;
+    color:  white;
+    text-align: center;
+    font-family: "Roboto slab";
+}
+
+#logos {
+    font-size: 21px; 
+    margin-right: 1%;   
+}
+
+#logos:hover {
+    color: #FF5600;
+}
+
+
+
+
+/* css design for website */
+@media only screen and (min-width: 768px) {
+body {
+     cursor: pointer;
+}
+
+#upcomingNav {
+    width: 100%;
+    height: 80px;
+    background: linear-gradient(to right,  #3B0563, #6E2BA0, #833DB7);
+}
+
+#backgroundPic1 {
+    width: 100%;
+    height: 100Vh;
+    padding-bottom: 2%;
+    background: linear-gradient(to right,  #3B0563, #6E2BA0, #833DB7);
+}
+
+#backgroundPicGallery {
+    width: 100%;
+    height: 100vh;
+    background: linear-gradient(to right,  #3B0563, #6E2BA0, #833DB7);
+    padding-bottom: 0;
+}
+
+.webNav {
+    width: 100%;
+    padding-top: 2%;
+    height: 70px;
+    display: flex;
+    flex-direction: row;
+}
+
+.mobileNav {
+    display: none;
+}
+
+#banner {
+    padding-left: 6%;
+    width: 29%;
+    font-size: 33px;
+    color: #FF5600;
+    font-family: 'Fredoka One'
+}
+
+#navLinks {
+    display: flex;
+    padding-top: 1.3%;
+    width: 67.5%;
+    padding-left: 19%;
+    padding-right: 5%;
+    font-size: 17px;
+    color: #FF5600;
+}
+
+#navLinks span {
+    margin-left: 6%;
+    color: #FF5600;
+}
+
+#navLinks span a {
+    color: #FF5600;
+    text-decoration: none;
+    font-family: 'Fredoka One';
+}
+
+#navLinks span a:hover {
+    color: white;
+}
+
+.introGrid {
+    margin: 5% 6% 0 0;
+    display: grid;
+    grid-template-columns: 60% 40%;
+}
+
+.aboutIntroGrid {
+    margin: 5% 8% 0 6%;
+    display: grid;
+    grid-template-columns: 40% 60%;
+    height: 70vh;
+}
+
+.introGridItem {
+    padding: 9% 4% 0 12%;
+    font-size: 17px;
+    color: white;
+    font-family: "Roboto Slab";
+}
+
+.aboutIntroGridItem {
+    padding: 9% 4% 0 14%;
+    font-size: 17px;
+    color: white;
+    font-family: "Roboto Slab";  
+}
+
+#bigHeader{
+    font-size: 45px;
+    font-family: 'Fredoka One';
+}
+
+.aboutIntroGridItemImage {
+    margin-top: 5%;
+    margin-bottom: 0;
+    width: 100%;
+    height: 25vh;
+}
+
+.aboutIntroGridItemImage img{
+    border-radius: 300px;
+    width: 100%;
+    height: 360px; 
+}
+
+
+.introGridItemImage img{
+    border-radius: 210px;
+    width: 100%;
+    height: 450px;
+}
+
+
+.introGridItem button {
+    width: 25%;
+    height: 40px;
+    font-size: 18px;
+    background-color: #FF5600;
+    color: white;
+    border-radius: 10px;
+    font-family: "Roboto Slab";
+    border: #FF5600 ;
+}
+
+.introGridItem button:hover {
+    background-color: white;
+    color: #FF5600;
+}
+
+.aboutIntroGridItem button {
+    width: 25%;
+    height: 40px;
+    font-size: 18px;
+    background-color: #FF5600;
+    color: white;
+    border-radius: 10px;
+    font-family: "Roboto Slab";
+    border: #FF5600 ;    
+}
+
+.aboutIntroGridItem button:hover {
+    background-color: white;
+    color: #FF5600;
+}
+
+.aboutUs {
+    display: grid;
+    grid-template-columns: 50% 50%;
+    padding: 5% 2% 3% 6%;;
+    background-color: #EBDCF8;
+}
+
+.aboutImage {
+    width: 100%;
+    height: 450px;
+    border-radius: 2px;
+    transform: translateX(-100%);
+    transition: transform 2s;
+}
+
+.aboutImages {
+    width: 100%;
+    height: 450px;
+    border-radius: 2px;
+    transform: translateX(0);
+    transition: transform 2s;
+}
+
+.aboutGrid2{
+    padding: 6% 6% 0 9%;
+    transform: translateX(100%);
+    transition: transform 2s;
+}
+
+.aboutGridTransform {
+    padding: 6% 6% 0 9%;
+    transform: translateX(0%);
+    transition: transform 2s;
+}
+
+.aboutHeader {
+    font-family: 'Fredoka One';
+    font-size: 34px;
+}
+
+.aboutParagraph {
+    font-size: 17px;
+    font-family: "Roboto Slab";
+}
+
+.learnMore {
+    width: 35%;
+    height: 40px;
+    font-size: 16px;
+    background-color: #FF5600;
+    color: white;
+    border-radius: 10px;
+    font-family: "Roboto Slab";
+    border: #FF5600 ;
+}
+
+.learnMore:hover {
+    color: #FF5600;
+    background-color: white;
+}
+
+/* styles for workProcess */
+.ourworkProcessHeader{
+    padding-top: 3%;
+    font-family: "Fredoka One";
+    text-align: center;
+    font-size: 30px;
+    color: black;
+    background-color: #EBDCF8;
+}
+
+.workProcess{
+    position: relative;
+    background-color: #EBDCF8;
+    color: Black;
+    height: 300vh;
+}
+
+.meetingListening{
+    position: absolute;
+    top: 4%;
+    left: 10%;
+    width: 40%;
+    padding-top: 0;
+    height: 260px;
+    display: flex;
+}
+
+.meetingImage {
+    transform: translateY(-50px);
+}
+
+.meetingImage2 {
+    transform: translateY(0);
+    transition: transform 2s;
+}
+
+.meetingListening img {
+    width: 94%;
+    height: 260px;
+    border-radius: 5px;
+}
+
+.meetingListeningNotes {
+    padding-top: 15%;
+    transform: translateY(50px);
+    transition: transform 1s;
+
+}
+
+.meetingListeningNotes2 {
+    padding-top: 15%;
+    transform: translateY(0);
+     transition: transform 2s;
+}
+
+.meetingListeningNotes2 h4 {
+    font-family: "Fredoka One";
+}
+
+.meetingListeningNotes2 p {
+    font-family: "Roboto Slab";
+}
+
+.planning {
+    margin-top: 0;
+    position: absolute;
+    top: 23%;
+    right: 10%;
+    width: 45%;
+    display: flex;
+    background: color;
+}
+
+.planning img {
+    width: 300px;
+    height: 260px;
+    border-radius: 5px;
+}
+
+.planningNotes {
+    padding-top: 15%;
+    padding-right: 2%;
+    transform: translateX(-50px);
+    transition: transform 1s;
+}
+
+.planningNotes2 {
+    padding-top: 15%;
+    padding-right: 2%;
+    transform: translateX(0);
+    transition: transform 2s;
+}
+
+.planningImage {
+    transform: translateY(-50px);
+    transition: transform 1s;
+}
+
+.planningImage2 {
+    transform: translateY(0);
+    transition: transform 2s;
+}
+
+
+.planningNotes2 h4 {
+    font-family: "Fredoka One";
+}
+
+.planningNotes2 p {
+    font-family: "Roboto Slab";
+}
+
+.validation{
+    margin-top: 0;
+    position: absolute;
+    top: 42%;
+    left: 10%;
+    width: 40%;
+    display: flex;
+}
+
+.validation img {
+    width: 300px;
+    height: 260px;
+    border-radius: 5px;
+}
+
+.validationNotes {
+    padding-top: 15%;
+    padding-left: 4%;
+    transform: translateY(50px);
+    opacity: 0;
+    transition: 1s;
+}
+
+.validationNotes2 {
+    padding-top: 15%;
+    padding-left: 4%;
+    transform: translateY(0);
+    opacity: 1;
+    transition: 2s;
+}
+
+.validationImage {
+    transform: translateX(50px);
+    transition: transform 1s;
+}
+
+.validationImage2 {
+    transform: translateX(0);
+    transition: transform 2s;
+}
+
+.validationNotes2 h4 {
+    font-family: "Fredoka One";
+}
+
+.validationNotes2 p {
+    font-family: "Roboto Slab";
+}
+
+.execution {
+    margin-top: 0;
+    position: absolute;
+    top: 61%;
+    right: 10%;
+    width: 45%;
+    display: flex;
+    background: color;
+}
+
+.execution img {
+    width: 300px;
+    height: 260px;
+    border-radius: 5px;
+}
+
+.executionNotes {
+    padding-top: 15%;
+    padding-right: 2%;
+    transform: translateX(-50px);
+    transition: transform 1s;
+}
+
+.executionNotes2 {
+    padding-top: 15%;
+    padding-left: 4%;
+    transform: translateY(0);
+    transition: transform 2s;
+}
+
+.executionImage {
+    transform: translateX(50px);
+    transition: transform 1s;
+}
+
+.executionImage2 {
+    transform: translateX(0);
+    transition: transform 2s;
+}
+
+.executionNotes2 h4 {
+    font-family: "Fredoka One";
+}
+
+.executionNotes2 p {
+    font-family: "Roboto Slab";
+}
+
+.feedback{
+    position: absolute;
+    top: 80%;
+    left: 10%;
+    margin-top: 0;
+    width: 40%;
+    display: flex;
+}
+
+.feedback img {
+    width: 300px;
+    height: 260px;
+    border-radius: 5px;
+}
+
+.feedbackNotes {
+    padding-top: 15%;
+    padding-left: 4%;
+    transform: translateY(-50px);
+    opacity: 0;
+    transition:  1s;
+}
+
+.feedbackNotes2 {
+    padding-top: 15%;
+    padding-left: 2%;
+    transform: translateY(0);
+    opacity: 1;
+    transition:  2s;
+}
+
+.feedbackImage {
+    transform: translateX(50px);
+    transition: transform 1s;
+}
+
+.feedbackImage2 {
+    transform: translateX(0);
+    transition: transform 2s;
+}
+
+/* our services */
+.ourServiceBody {
+    padding: 4% 0 4% 0;
+    color: white;
+    background-color:  #3B0563;
+    height: 80vh;
+}
+
+.serviceContainer {
+    position: relative;
+    width: 100%;
+    height: 80vh;
+}
+
+.ourServiceGrid {
+    display: Grid;
+    grid-template-columns: 33% 33% 33%;
+    padding: 3% 0% 0 8%;
+}
+
+.testimonial {
+    padding-top: 3%;
+    background-color: #EBDCF8;
+}
+
+.testimonialHeader{
+    font-size: 30px;
+    font-family: "fredoka One";
+    text-align: center;
+    color: black;
+}
+
+
+.testimonialGridItem {
+    color: black;
+    text-align: center;
+    padding: 4% 0 6% 0;
+    font-family: "Roboto Slab";
+}
+
+.testimonialGridItem img {
+    border-radius: 100%;
+    margin-bottom: 1%;
+}
+.testimonialNote {
+    padding-top: 2%;
+}
+
+#star {
+    color: #FF5600;
+}
+
+.name {
+    color: #FF5600;
+    font-family: "fredoka One";
+}
+
+footer{ 
+    background-color: black;
+}
+
+.footerGrid {
+    display: grid;
+    grid-template-columns: 25% 25% 25% 25%;
+}
+
+.footerGridItem1 {
+    padding: 15% 2% 0 10%;
+}
+
+.footerGridItem {
+    padding: 20% 2% 0 3%;
+}
+
+ul {
+    list-style: none;
+}
+
+li {
+    color: white;
+    font-family: "Roboto Slab";
+    font-size: 14px;
+}
+
+.links a {
+    color: white;
+    text-decoration: none;
+}
+
+.links a:hover {
+    color: #FF5600;
+}
+
+li button {
+    background-color: #FF5600;
+    color: white;
+    width: 40%;
+    border: 1px solid #FF5600;
+    border-radius: 5px;
+}
+
+li button:hover {
+    background-color: white;
+    color:  #FF5600;
+}
+
+.header {
+    color: #FF5600;
+    font-family: "Fredoka One";
+    font-size: 17px;
+    /* background-color: green; */
+}
+
+#zzarHeader{
+    color:  #FF5600;
+    font-family: "Fredoka One";
+    /* background-color: green; */
+    font-size: 27px;
+}
+
+#rights{
+    padding-top: 5%;
+    color:  white;
+    text-align: center;
+    font-family: "Roboto slab";
+}
+
+#logos {
+    font-size: 21px; 
+    margin-right: 1%;   
+}
+
+#logos:hover {
+    color: #FF5600;
+}
+}

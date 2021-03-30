@@ -1,0 +1,88 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>zzar event pro about page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/99815a6de7.js" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/contact.css">
+<body>
+    <div id="backgroundPic1">
+        <nav class="webNav"> 
+            <div id="banner"><span>zzarpro</span></div>
+            <div id="navLinks">
+            <span><a href="../index.html">Home</a></span>
+            <span><a href="./about.html">About</a></span>
+            <span><a href="./upcomingEvent.html">Upcoming Events</a></span>
+            <span><a href="gallery.html">Gallery</a></span>
+            <span><a href="./contact.html">Contact Us</a></span>
+        </div>
+        </nav>
+
+        <nav class="mobileNav">
+            <span id="banner">zzarpro</span>
+            <span class="menu"><i class="fas fa-bars"></i></span>
+            <span class="close"><i class="fas fa-times"></i></span>
+        </nav>
+
+        <div class="sideBarNav">
+        <ul>
+            <a href="../home.html"><li>Home</li></a>
+            <a href="./about.html"><li>About</li></a>
+            <a href="./upcomingEvent.html"><li>Upcoming Events</li></a>
+            <a href="./gallery.html"><li>Gallery</li></a>
+            <a href="./contact.html"><li>Contact Us</li></a>
+        </ul>
+        </div>
+
+    <div class="contactGrid"> 
+        <div class="contactGridName animate__animated animate__backInLeft">
+        <div class="contactHeader">Contact Us</div>   
+        <div class="contactPreamble"> 
+        <p>Interested In what we do? you want to partner with us? 
+        <br/>or  compliment our work.<br/>
+        drop us a message.<i class="fa fa-hand-o-right" aria-hidden="true" color="white" size="2x"></i></p><br/><br/>
+        </div>
+        
+        <div class="contactAddress">    
+        <p>
+            <i class="fa fa-map-marker" aria-hidden="true" color="#FF5600"></i>
+            4, MustyThunder Street Mafoluku, Oshodi, Lagos.</p>
+        <p><i class="fa fa-phone" aria-hidden="true"></i>+2348099227883</p>
+        <p><i class="fa fa-envelope" aria-hidden="true"></i>zzarseventpro@gmail.com</p>
+        </div>
+        </div>
+
+        <div class="contactGridMessage animate__animated animate__backInRight"> 
+        <form id="contactForm">
+            <div class="errorMessage"></div>
+            <div class="succesMessage"></div>
+            <label>Full Name</label>
+            <input type="text" placeholder="full name"  required/><br/>
+
+            <label>Email</label>
+            <input type="emali" placeholder="email" required/><br/>
+
+            <label>Message</label>
+            <textarea> comment</textarea><br/>
+            <button id="submitBtn">Message Us!</button>
+        </form>
+        </div>
+
+    </div>
+    </div>
+
+    <div class="googleAddress"> 
+        <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3963.68648024769!2d3.3258695142667074!3d6.561201724545426!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x103b8e1b450691c1%3A0xfa85604a08c18a74!2s40%20Samuel%20St%2C%20Mafoluku%20Oshodi%2C%20Lagos!5e0!3m2!1sen!2sng!4v1614099383151!5m2!1sen!2sng" width="800" height="600" style="border:0;" allowfullscreen="" loading="lazy"></iframe>
+    </div>
+    <footer> 
+     <div id="contactRights">&copy; 2021 zzarpro, all rights reserved.</div>
+    </footer>
+    <script src="../js/Apis.js"></script>
+    <script src="../js/nav.js"></script>
+    </body>
+    </html>

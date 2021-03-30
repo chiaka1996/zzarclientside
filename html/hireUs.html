@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<meta charset="UTF-8">
+<title>zzar event pro home page</title>
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<script src="https://kit.fontawesome.com/99815a6de7.js" crossorigin="anonymous"></script>
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-BmbxuPwQa2lc/FVzBcNJ7UAyJxM6wuqIj61tLrc4wSX0szH/Ev+nYRRuWlolflfl" crossorigin="anonymous">
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.0-beta2/dist/js/bootstrap.bundle.min.js" integrity="sha384-b5kHyXgcpbZJO/tY9Ul7kGkf1S0CWuKcCD38l8YkeH8z8QjE0GmW1gYU5S9FOnJ0" crossorigin="anonymous"></script>
+<script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/animate.css/4.1.1/animate.min.css" />
+<link rel="stylesheet" href="../css/style.css">
+<link rel="stylesheet" href="../css/hireUs.css">
+<body>
+<div id="backgroundPic2">
+    <nav>
+        <div id="banner"><span>zzarpro</span></div>
+
+        <div id="navLinks">
+        <span><a href="../index.html">Home</a></span>
+        <span><a href="./about.html">About</a></span>
+        <span><a href="./upcomingEvent.html">Upcoming Events</a></span>
+        <span><a href="gallery.html">Gallery</a></span>
+        <span><a href="./contact.html">Contact Us</a></span>
+    </div>
+    </nav>
+
+    <div class="formBody animate__animated animate__backInUp">
+        <div class="pleaseFillForm">Please fill the form </div>
+        <form id="hireUsForm">
+            <div class="hireErrorMessage"></div>
+            <div class="successMessage"></div>
+            <label>Full Name</label><br/>
+            <input type="text" placeholder="john doe" />
+
+            <label>Email</label><br/>
+            <input type="email" placeholder="doe@gmail.com" />
+
+            <label>Phone No</label><br/>
+            <input type="tel" placeholder="0708956789" />
+
+            <label>Event Type</label><br/>
+            <select>
+                <option>Wedding Planning</option>
+                <option>Birthday Planning</option>
+                <option>Beach Hangout</option>
+                <option>Consultancy and Advisory</option>
+                <option>Competition Planning</option>
+                <option>Video Coverage & Photography</option>
+                <option>Funerals</option>
+                <option>Ushering</option>
+                <option>Disc Jockey</option>
+                <option>Catering</option>
+                <option>Security & Bouncers</option>
+                <option>Graduation Party</option>
+                <option>Hall Decoration</option>
+            </select>
+
+            <label>Event Location</label><br/>
+            <input type="text" />
+
+            <button id="submitBtn">Send</button>
+        </form>
+    </div>
+    </div>
+    <script src="../js/hireUs.js"></script>
+    </body>
+    </html>

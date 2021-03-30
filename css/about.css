@@ -1,0 +1,344 @@
+.body { 
+    width:100%;
+    height: 100%;
+}
+
+.valueContainer {
+    background-color: lightgrey;
+    width: 100%;
+    height: 100%;
+    padding-bottom: 10%;
+}
+
+.valuesHeader {
+    padding: 4% 0 3% 0;
+    font-family: "Fredoka One";
+    text-align: center;
+    font-size: 27px;
+}
+
+.communication {
+    margin: 3% auto 3% auto;
+    width: 90%;
+    border: 1px solid lightgrey;
+    background: white;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    /* border-radius: 10px; */
+    transform: translateX(-100%);
+    transition: 2s; 
+}
+
+.communicationTransform {
+    margin: 3% auto 3% auto;
+    width: 90%;
+    border: 1px solid lightgrey;
+    background: white;
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    /* border-radius: 10px; */
+    transform: translateX(0);
+    transition: 2s; 
+}
+
+.communicationImage {
+    padding: 0 0 0 0;
+    width: 100%;
+    /* background-color: black; */
+}
+
+.communicationImage img {
+width: 100%;
+height: 250px;
+}
+
+.communicationDetails {
+    padding: 0 5% 0 5%;
+    font-family: "Roboto Slab";
+    background-color: white;
+}
+
+.communicationHeader {
+    font-family: "Fredoka One";
+    font-size: 25px;
+    color: #FF5600;
+}
+
+.catering {
+    width: 90%;
+    margin: 3% auto;
+    border: 1px solid lightgrey;
+    /* background: linear-gradient(-50deg,#397EEF 50%, white 50%); */
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    border-radius: 10px;
+    transform: translateX(100%);
+    transition: transform 2s ease-in-out;
+}
+
+.cateringTransform {
+    width: 90%;
+    margin: 3% auto;
+    border: 1px solid lightgrey;
+    /* background: linear-gradient(-50deg,#397EEF 50%, white 50%); */
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    border-radius: 10px;
+    transform: translateX(0);
+    transition: transform 2s ease-in-out;
+}
+
+.cateringImageHidden {
+    display: block;
+    padding: 0 0 0 0;
+    width: 100%;
+    background-color: white;
+}
+
+.cateringImage {
+    display: none;
+}
+
+.cateringImageHidden img {
+    width: 100%;
+    background-color: white;
+    height: 250px;
+}
+
+.cateringDetails {
+    padding: 0 5% 0 5%;
+    font-family: "Roboto Slab";
+    background-color: white;
+}
+
+.cateringHeader {
+    font-family: "Fredoka One";
+    font-size: 25px;
+    color: #397EEF;
+}
+
+.relationship {
+    width: 90%;
+    margin: 3% auto;
+    border: 1px solid lightgrey;
+    /* background: linear-gradient(50deg, #833DB7 50%, white 50%); */
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    border-radius: 0;
+    transform: translateX(-100%);
+    transition: transform 2s ease-in-out;
+}
+
+.relationshipTransform {
+    width: 90%;
+    margin: 3% auto;
+    border: 1px solid lightgrey;
+    /* background: linear-gradient(50deg, #833DB7 50%, white 50%); */
+    height: 100%;
+    display: grid;
+    grid-template-rows: auto auto;
+    border-radius: 0; 
+    transform: translateX(0);
+    transition: transform 2s ease-in-out;
+}
+
+#relationshipImage {
+    width: 100%;
+    height: 250px;
+    background-color: white;
+}
+
+.convenience{
+    width: 90%;
+    margin: 3% auto;
+    border: 1px solid lightgrey;
+    background: linear-gradient(-50deg,#397EEF 50%, white 50%);
+    height: 350px;
+    display: grid;
+    grid-template-rows: auto auto;
+    border-radius: 0; 
+    transform: translateX(100%);
+    transition: transform 2s ease-in-out;
+}
+
+.convenienceTransform {
+    width: 90%;
+    margin: 3% auto;
+    border: 1px solid lightgrey;
+    background: linear-gradient(-50deg,#397EEF 50%, white 50%);
+    height: 350px;
+    display: grid;
+    grid-template-rows: auto auto;
+    border-radius: 0;
+    transform: translateX(0);
+    transition: transform 2s ease-in-out;
+}
+
+
+
+
+
+@media only screen and (min-width: 768px) {
+.communication {
+    width: 70%;
+    margin: 3% auto;
+    border: 1px solid lightgrey;
+    background: linear-gradient(50deg, #833DB7 50%, white 50%);
+    height: 350px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    border-radius: 10px;
+    transform: translateX(-100%);
+    transition: transform 2s; 
+}
+
+.communicationTransform {
+    width: 70%;
+    margin: 3% auto;
+    border: 1px solid lightgrey;
+    background: linear-gradient(50deg, red 50%, white 50%);
+    height: 350px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    border-radius: 10px;
+    transform: translateX(0);
+    transition: transform 2s; 
+}
+
+.communicationImage {
+    padding: 10% 0 0 12%;
+    width: 50%;
+}
+
+.communicationImage img {
+width: 100%;
+height: 200px
+}
+
+.communicationDetails {
+    padding: 17% 7% 0 0;
+    font-family: "Roboto Slab";
+    background-color: white;
+
+}
+
+.communicationHeader {
+    font-family: "Fredoka One";
+    font-size: 25px;
+    color: #397EEF;
+}
+
+.catering {
+    width: 70%;
+    margin: 3% auto;
+    border: 1px solid lightgrey;
+    background: linear-gradient(-50deg,#397EEF 50%, white 50%);
+    height: 350px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    border-radius: 10px;
+    transform: translateX(100%);
+    transition: transform 2s ease-in-out;
+}
+
+.cateringTransform {
+    width: 70%;
+    margin: 3% auto;
+    border: 1px solid lightgrey;
+    background: linear-gradient(-50deg,#397EEF 50%, white 50%);
+    height: 350px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    border-radius: 10px;
+    transform: translateX(0);
+    transition: transform 2s ease-in-out;
+}
+
+.cateringImageHidden {
+    display: none;
+}
+
+.cateringImage {
+    display: block;
+    padding: 15% 0 0 15%;
+}
+
+.cateringImage img {
+    width: 60%;
+    background-color: white;
+}
+
+.cateringDetails {
+    padding: 17% 24% 0 7%;
+    font-family: "Roboto Slab";
+}
+
+.cateringHeader {
+    font-family: "Fredoka One";
+    font-size: 25px;
+    color: #FF5600;
+}
+
+.relationship {
+    width: 70%;
+    margin: 3% auto;
+    border: 1px solid lightgrey;
+    background: linear-gradient(50deg, #833DB7 50%, white 50%);
+    height: 350px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    border-radius: 10px;
+    transform: translateX(-100%);
+    transition: transform 2s ease-in-out;
+}
+
+.relationshipTransform {
+    width: 70%;
+    margin: 3% auto;
+    border: 1px solid lightgrey;
+    background: linear-gradient(50deg, #833DB7 50%, white 50%);
+    height: 350px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    border-radius: 10px; 
+    transform: translateX(0);
+    transition: transform 2s ease-in-out;
+}
+
+#relationshipImage {
+    width: 100%;
+    height: 200px;
+    background-color: white;
+}
+
+.convenience{
+    width: 70%;
+    margin: 3% auto;
+    border: 1px solid lightgrey;
+    background: linear-gradient(-50deg,#397EEF 50%, white 50%);
+    height: 350px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    border-radius: 10px; 
+    transform: translateX(100%);
+    transition: transform 2s ease-in-out;
+}
+
+.convenienceTransform {
+    width: 70%;
+    margin: 3% auto;
+    border: 1px solid lightgrey;
+    background: linear-gradient(-50deg,#397EEF 50%, white 50%);
+    height: 350px;
+    display: grid;
+    grid-template-columns: 60% 40%;
+    border-radius: 10px;
+    transform: translateX(0);
+    transition: transform 2s ease-in-out;
+}
+}

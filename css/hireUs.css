@@ -1,0 +1,95 @@
+#backgroundPic2 {
+    width: 100%;
+    height: 100%;
+    padding-bottom: 1%;
+    background: linear-gradient(to right,  #3B0563 , #6E2BA0 , #833DB7);
+}
+
+.hireErrorMessage {
+    background-color: #E0A9AD;
+    color: red;
+    font-family: "Roboto Slab"; 
+    text-align: left;
+    font-size: 14px;
+    opacity: 0;
+    transform: translateY(-100%);
+}
+
+.hireErrorMessage2 {
+    background-color: #E0A9AD;
+    color: red;
+    font-family: "Roboto Slab"; 
+    text-align: left;
+    font-size: 14px;
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 2s;
+}
+
+.successMessage {
+    background-color: rgba(200, 243, 209, 0.63);
+    color: green;
+    font-family: "Roboto Slab"; 
+    text-align: left;
+    font-size: 14px;
+    opacity: 0; 
+    transform: translateY(-100%);
+}
+
+.successMessage2 {
+    background-color: rgba(200, 243, 209, 0.63);
+    color: green;
+    font-family: "Roboto Slab"; 
+    text-align: left;
+    font-size: 14px;
+    opacity: 1;
+    transform: translateY(0);
+    transition: transform 1s; 
+}
+
+.formBody {
+    margin: 3% auto;
+    width: 40%;
+    background-color: white;
+    color: black;
+    padding: 2% 3% 1.5% 3%;
+    border-radius: 10px;
+}
+
+.pleaseFillForm {
+    text-align: center;
+    color: #FF5600;
+    font-family: "Fredoka One";
+    font-size: 18px;
+}
+
+.formBody form label {
+    color: black;
+    font-family: "Fredoka One";
+    font-size: 14px;
+}
+
+.formBody form input, .formBody form select {
+    width: 100%;
+    height: 40px;
+    border: 1px solid black;
+    margin-bottom: 6%;
+    font-size: 12px;
+    border-radius: 5px;
+}
+
+.formBody form button {
+    background-color: #FF5600;
+    width: 30%;
+    font-size: 15px;
+    font-family: "Fredoka One";
+    color: white;
+    border-radius: 5px;
+    border: 1px solid  #FF5600;
+}
+
+.formBody form button:hover {
+    background-color: white;
+    color: #FF5600;
+}
+
