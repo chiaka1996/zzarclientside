@@ -84,6 +84,7 @@ a {
     font-size: 25px;
     height: 210px; 
     color: white;
+    cursor: pointer;
 }
 
 .close {
@@ -107,6 +108,7 @@ a {
     height: 210px; 
     color: red; 
     transition: 3s;  
+    cursor: pointer;
 }
 
 .introGrid {
