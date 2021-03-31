@@ -1,3 +1,7 @@
+body{ 
+    background: linear-gradient(to right,  #3B0563 , #6E2BA0 , #833DB7);
+}
+
 #backgroundPic2 {
     width: 100%;
     height: 100%;

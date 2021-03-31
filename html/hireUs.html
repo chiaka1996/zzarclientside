@@ -12,7 +12,7 @@
 <link rel="stylesheet" href="../css/hireUs.css">
 <body>
 <div id="backgroundPic2">
-    <nav>
+    <nav class="webNav">
         <div id="banner"><span>zzarpro</span></div>
 
         <div id="navLinks">
@@ -23,6 +23,22 @@
         <span><a href="./contact.html">Contact Us</a></span>
     </div>
     </nav>
+
+    <nav class="mobileNav">
+            <span id="banner">zzarpro</span>
+            <span class="menu"><i class="fas fa-bars"></i></span>
+            <span class="close"><i class="fas fa-times"></i></span>
+        </nav>
+    
+        <div class="sideBarNav">
+        <ul>
+            <a href="../index.html"><li>Home</li></a>
+            <a href="./about.html"><li>About</li></a>
+            <a href="./upcomingEvent.html"><li>Upcoming Events</li></a>
+            <a href="./gallery.html"><li>Gallery</li></a>
+            <a href="./contact.html"><li>Contact Us</li></a>
+        </ul>
+        </div>
 
     <div class="formBody animate__animated animate__backInUp">
         <div class="pleaseFillForm">Please fill the form </div>
@@ -63,5 +79,6 @@
     </div>
     </div>
     <script src="../js/hireUs.js"></script>
+    <script src="../js/nav.js"></script>
     </body>
     </html>
