@@ -58,6 +58,7 @@ body{
     color: black;
     padding: 2% 3% 1.5% 3%;
     border-radius: 10px;
+    height: 100vh;
 }
 
 .pleaseFillForm {
@@ -107,6 +108,7 @@ body{
     color: black;
     padding: 2% 3% 1.5% 3%;
     border-radius: 10px;
+    height: 100%;
 }
 
 
