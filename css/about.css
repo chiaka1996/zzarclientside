@@ -1,16 +1,8 @@
-/* .body { 
-    width:100%;
-    height: 100%;
-    overflow-x: hidden;
-    overflow-y: hidden;
-} */
-
 .valueContainer {
     background-color: lightgrey;
     width: 100%;
     height: 100%;
-    padding-bottom: 20%;
-    /* overflow-x: hidden; */
+    padding-bottom: 20%; 
 }
 
 .valuesHeader {
@@ -28,8 +20,7 @@
     height: 100%;
     display: grid;
     opacity: 0;
-    grid-template-rows: auto auto;
-    /* border-radius: 10px; */
+    grid-template-rows: auto auto; 
     transform: translateX(-100%);
     transition: 2s; 
 }
@@ -42,16 +33,14 @@
     height: 100%;
     display: grid;
     opacity: 1;
-    grid-template-rows: auto auto;
-    /* border-radius: 10px; */
+    grid-template-rows: auto auto; 
     transform: translateX(0);
     transition: 2s; 
 }
 
 .communicationImage {
     padding: 0 0 0 0;
-    width: 100%;
-    /* background-color: black; */
+    width: 100%; 
 }
 
 .communicationImage img {
@@ -74,13 +63,12 @@ height: 250px;
 .catering {
     width: 90%;
     margin: 3% auto;
-    border: 1px solid lightgrey;
-    /* background: linear-gradient(-50deg,#397EEF 50%, white 50%); */
+    border: 1px solid lightgrey; 
     height: 100%;
     display: grid;
     grid-template-rows: auto auto;
     border-radius: 10px;
-    transform: translateX(100%);
+    transform: translateY(100%);
     opacity: 0;
     transition: 2s ease-in-out;
 }
@@ -88,13 +76,12 @@ height: 250px;
 .cateringTransform {
     width: 90%;
     margin: 3% auto;
-    border: 1px solid lightgrey;
-    /* background: linear-gradient(-50deg,#397EEF 50%, white 50%); */
+    border: 1px solid lightgrey; 
     height: 100%;
     display: grid;
     grid-template-rows: auto auto;
     border-radius: 10px;
-    transform: translateX(0);
+    transform: translateY(0);
     opacity: 1;
     transition: 2s ease-in-out;
 }
@@ -131,29 +118,27 @@ height: 250px;
 .relationship {
     width: 90%;
     margin: 3% auto;
-    border: 1px solid lightgrey;
-    /* background: linear-gradient(50deg, #833DB7 50%, white 50%); */
+    border: 1px solid lightgrey; 
     height: 100%;
     display: grid;
     grid-template-rows: auto auto;
     border-radius: 0;
     transform: translateX(-100%);
     opacity: 0;
-    transition: 2s ease-in-out;
+    transition: 2s;
 }
 
 .relationshipTransform {
     width: 90%;
     margin: 3% auto;
-    border: 1px solid lightgrey;
-    /* background: linear-gradient(50deg, #833DB7 50%, white 50%); */
+    border: 1px solid lightgrey; 
     height: 100%;
     display: grid;
     grid-template-rows: auto auto;
     border-radius: 0; 
     transform: translateX(0);
     opacity: 1;
-    transition: 2s ease-in-out;
+    transition: 2s;
 }
 
 #relationshipImage {
@@ -171,9 +156,9 @@ height: 250px;
     display: grid;
     grid-template-rows: auto auto;
     border-radius: 0; 
-    transform: translateX(100%);
+    transform: translateY(100%);
     opacity: 0;
-    transition: 2s ease-in-out;
+    transition: 2s;
 }
 
 .convenienceTransform {
@@ -185,9 +170,9 @@ height: 250px;
     display: grid;
     grid-template-rows: auto auto;
     border-radius: 0;
-    transform: translateX(0);
+    transform: translateY(0);
     opacity: 1;
-    transition: 2s ease-in-out;
+    transition: 2s;
 }
 
 
@@ -204,8 +189,9 @@ height: 250px;
     display: grid;
     grid-template-columns: 60% 40%;
     border-radius: 10px;
+    opacity: 0;
     transform: translateX(-100%);
-    transition: transform 2s; 
+    transition: 2s; 
 }
 
 .communicationTransform {
@@ -217,8 +203,9 @@ height: 250px;
     display: grid;
     grid-template-columns: 60% 40%;
     border-radius: 10px;
+    opacity: 1;
     transform: translateX(0);
-    transition: transform 2s; 
+    transition: 2s; 
 }
 
 .communicationImage {
@@ -253,8 +240,9 @@ height: 200px
     display: grid;
     grid-template-columns: 60% 40%;
     border-radius: 10px;
+    opacity: 0;
     transform: translateX(100%);
-    transition: transform 2s ease-in-out;
+    transition: 2s;
 }
 
 .cateringTransform {
@@ -266,8 +254,9 @@ height: 200px
     display: grid;
     grid-template-columns: 60% 40%;
     border-radius: 10px;
+    opacity: 1;
     transform: translateX(0);
-    transition: transform 2s ease-in-out;
+    transition: 2s;
 }
 
 .cateringImageHidden {
@@ -304,6 +293,7 @@ height: 200px
     display: grid;
     grid-template-columns: 60% 40%;
     border-radius: 10px;
+    opacity: 0;
     transform: translateX(-100%);
     transition: transform 2s ease-in-out;
 }
@@ -317,6 +307,7 @@ height: 200px
     display: grid;
     grid-template-columns: 60% 40%;
     border-radius: 10px; 
+    opacity: 1;
     transform: translateX(0);
     transition: transform 2s ease-in-out;
 }
@@ -336,6 +327,7 @@ height: 200px
     display: grid;
     grid-template-columns: 60% 40%;
     border-radius: 10px; 
+    opacity: 0;
     transform: translateX(100%);
     transition: transform 2s ease-in-out;
 }
@@ -349,7 +341,8 @@ height: 200px
     display: grid;
     grid-template-columns: 60% 40%;
     border-radius: 10px;
+    opacity: 1;
     transform: translateX(0);
     transition: transform 2s ease-in-out;
 }
-}
+} 
