@@ -2,7 +2,7 @@ window.addEventListener("load",  () => {
 
     const galleryGrid = document.querySelector(".galleryGrid");
 
-    axios.get("http://localhost:5000/apis/getimage")
+    axios.get("https://zzarprobackend.herokuapp.com/apis/getimage")
     .then(
         (response) => {
 

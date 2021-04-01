@@ -91,9 +91,7 @@ submitBtn.addEventListener('click', (e) => {
             message
         }
     
-        console.log(data);
-    
-        axios.post('http://localhost:5000/apis/review', data)
+        axios.post('https://zzarprobackend.herokuapp.com/apis/review', data)
             .then(response => {
                 console.log(response)
                 successMessage.innerHTML = response.data;

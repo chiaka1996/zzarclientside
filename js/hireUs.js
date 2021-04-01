@@ -94,11 +94,8 @@ hireSubmitBtn.addEventListener('click', (e) => {
             eventLocation
         }
     
-        console.log(data);
-    
-        axios.post('http://localhost:5000/apis/hireus', data)
+        axios.post('https://zzarprobackend.herokuapp.com/apis/hireus', data)
             .then(response => {
-                console.log(response)
                 successMessage.innerHTML = response.data;
                 successMessage.classList.remove("successMessage");
                 successMessage.classList.add("successMessage2");

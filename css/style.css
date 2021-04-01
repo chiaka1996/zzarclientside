@@ -945,12 +945,6 @@ body {
     color: white;
 }
 
-.introGrid {
-    margin: 5% 0 0 0;
-    display: grid;
-    grid-template-columns: 60% 40%;
-}
-
 .aboutIntroGrid {
     margin: 5% 8% 0 6%;
     display: grid;
@@ -958,9 +952,16 @@ body {
     height: 70vh;
 }
 
+.introGrid {
+    margin: 3.5% 5% 0 0;
+    display: grid;
+    grid-template-columns: 55% 45%; 
+    width: 95%;
+}
+
 .introGridItem {
-    margin-top: 1%;
-    padding: 12% 1% 0 11%;
+    margin-top: 0;
+    padding: 17% 1% 0 11%;
     font-size: 17px;
     color: white;
     font-family: "Roboto Slab";
@@ -993,6 +994,8 @@ body {
 
 .introGridItemImage{
     height: 100%;
+    height: 450px;
+
 }
 
 
